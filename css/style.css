@@ -1,0 +1,213 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:Poppins,sans-serif;
+    background:#eef2f7;
+
+}
+
+.container{
+
+    width:95%;
+    max-width:1400px;
+    margin:auto;
+    padding:20px;
+
+}
+
+header{
+
+    text-align:center;
+    margin-bottom:20px;
+
+}
+
+header h1{
+
+    color:#003366;
+
+}
+
+.panel{
+
+    display:grid;
+    grid-template-columns:320px 1fr;
+    gap:20px;
+
+}
+
+.controls{
+
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+
+}
+
+.controls h2{
+
+    margin-bottom:15px;
+
+}
+
+.controls label{
+
+    display:block;
+    margin-top:15px;
+    font-weight:600;
+
+}
+
+.controls input,
+.controls select{
+
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border-radius:8px;
+    border:1px solid #ccc;
+
+}
+
+button{
+
+    width:100%;
+    margin-top:20px;
+    padding:12px;
+    background:#1976d2;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#1258a8;
+
+}
+
+.graph{
+
+    background:white;
+    border-radius:12px;
+    padding:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+
+}
+
+#grafica{
+
+    width:100%;
+    height:600px;
+
+}
+
+.resultados{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:20px;
+
+}
+
+.card{
+
+    background:white;
+    padding:20px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+
+}
+
+.card h3{
+
+    color:#003366;
+
+}
+
+.card p{
+
+    margin-top:10px;
+    font-size:28px;
+    font-weight:bold;
+
+}
+
+.formula{
+
+    margin-top:25px;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+
+}
+
+.formula h2{
+
+    margin-bottom:15px;
+
+}
+
+.tablaDatos{
+
+    margin-top:25px;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+
+}
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+th{
+
+    background:#1565C0;
+    color:white;
+
+}
+
+td,th{
+
+    border:1px solid #ddd;
+    padding:8px;
+    text-align:center;
+
+}
+
+tbody tr:nth-child(even){
+
+    background:#f3f3f3;
+
+}
+
+button{
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    transform:scale(1.03);
+
+}
